@@ -31,7 +31,7 @@ st.title("My Streamlit App")
 user_input = st.text_input("Enter something:")
 st.write(f"You entered: {user_input}")
 
-# Run the app using: streamlit run your_script.py
+# Run the app using: streamlit run {{program_name}}.py
 You can save this script as a .py file and run it using the streamlit run command. The Streamlit app will automatically launch in your default web browser, providing a simple input field where users can type something.
 
 Streamlit's strength lies in its simplicity and ability to turn Python scripts into interactive web applications with minimal code.
