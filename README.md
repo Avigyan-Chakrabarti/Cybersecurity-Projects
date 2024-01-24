@@ -23,16 +23,16 @@ Real-Time Data Monitoring: Streamlit can be used to build real-time data monitor
 
 Collaboration: Streamlit apps are easy to share, making collaboration simpler. You can deploy your app on various platforms, such as Streamlit Sharing, Heroku, or other cloud services.
 
+# Streamlit App content
 Here's a simple example of a Streamlit script:
 
 import streamlit as st
 
-# Streamlit app content
 st.title("My Streamlit App")
 user_input = st.text_input("Enter something:")
 st.write(f"You entered: {user_input}")
 
-# Run the app using: streamlit run {{program_name}}.py
+Run the app using: streamlit run {{program_name}}.py
 You can save this script as a .py file and run it using the streamlit run command. The Streamlit app will automatically launch in your default web browser, providing a simple input field where users can type something.
 
 Streamlit's strength lies in its simplicity and ability to turn Python scripts into interactive web applications with minimal code.
